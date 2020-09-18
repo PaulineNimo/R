@@ -152,4 +152,4 @@ colnames(movie.clean) <- c("title","year","userRating","votes","runtime","mpaaRa
                            "director","writer","stars","metacriticScore","awardWins","awardNominations",
                            "tagline","country","language","filmingLocations","budget","openingWeekendUS",
                            "grossUS","cumulativeWorldwideGross","productionCompany","sound")
-write.csv(movie.clean,"IMDB Top 250 movies data.csv",row.names = F)
+write.csv(movie.clean,"IMDB Top 250 movies data.csv", row.names = F)
